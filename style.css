@@ -1,0 +1,152 @@
+                /* Création du chargement */
+                /* nav .chargement {
+    border: 10px solid #73f7ae;
+    border-top: 10px solid #2c3e50;
+    border-bottom: 10px solid#e74c3c;
+    border-left: 10px solid green;
+    border-right: 10px solid #0c4a9f;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    -webkit-animation: Spin 1.5s linear infinite;
+    -o-animation: Spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+    /* Placement du chargement */
+                /* margin: auto;
+    position: absolute;
+    top: 0: left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+@-webkit-keyframes spin {
+    -webkit-transform: rotate(0deg);
+}
+
+100% {
+    -webkit-transform: rotate(360deg) */
+                /* }
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+*
+fin du chargement */
+                
+                body {
+                    background-color: rgb(197, 211, 252);
+                }
+                
+                .page {
+                    width: 780px;
+                    margin: auto;
+                    font-family: 'Source sans pro', Calibri, Tahoma, sans-serif;
+                    font-size: 16px;
+                    border: 5px solid #3388CC;
+                    border-radius: 10px;
+                    box-shadow: 2px 3px 4px black;
+                    padding: 20px;
+                    background-color: white;
+                }
+                
+                .infophoto {
+                    height: 350px;
+                    display: flex;
+                    justify-content: space-between;
+                }
+                
+                .info:hover {
+                    color: rgb(100, 105, 247);
+                }
+                
+                img {
+                    border-radius: 50px;
+                    float: left;
+                }
+                
+                .img:hover {
+                    flood-color: rgb(207, 221, 233);
+                }
+                
+                .section {
+                    margin-bottom: 80px;
+                    text-align: justify;
+                }
+                
+                .section:hover {
+                    color: rgb(243, 166, 115);
+                }
+                
+                .sec-gauche {
+                    float: left;
+                    font-weight: bold;
+                    font-size: 25px;
+                }
+                
+                .sec-gauche :hover {
+                    color: rgb(186, 165, 245);
+                }
+                
+                .sec-droite {
+                    margin-left: 175px;
+                    margin-top: 40px;
+                }
+                
+                h2 {
+                    font-size: 28px;
+                    color: rgb(6, 126, 84);
+                    border-bottom: 3px solid #3388DD;
+                }
+                
+                .h2:hover {
+                    color: rgb(5, 40, 136);
+                }
+                
+                .durée {
+                    font-weight: normal;
+                    font-style: italic;
+                    font-size: 15px;
+                }
+                
+                .titre {
+                    font-weight: bold;
+                    font-size: 20px;
+                    justify-content: center;
+                }
+                
+                .titre:hover {
+                    color: rgb(13, 253, 5);
+                }
+                
+                #forma-gauche p {
+                    margin-bottom: 40px;
+                }
+                
+                #exp-gauche p {
+                    margin-top: 35px;
+                }
+                
+                #autre-droite-sub p {
+                    margin-top: 60
+                }
+                
+                #autre-competence-droite {
+                    /* line-height: 20px; */
+                    margin-top: 50px;
+                }
+                
+                #interet-droite {
+                    margin-top: 50px;
+                }
+                
+                strong {
+                    font-size: 40px;
+                }
+                /* SECTION ICONE */
+                /* icone */
